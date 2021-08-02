@@ -1,7 +1,8 @@
 .header__logo {
-    height: 380px;
+    height: 100px;
     /* margin-left: 100px; */
     /* margin-top: -50px; */
+    padding-left: 100px;
 }
 
 .header__caixa {
@@ -21,12 +22,17 @@
     z-index: 1;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.3);
 }
 
 .header__navegacao {
     /* position: absolute; */
     /* top: 70px; */
     /* right: 100px; */
+    padding-right: 100px;
+    padding-top: 38px;
+
 }
 
 nav li {
