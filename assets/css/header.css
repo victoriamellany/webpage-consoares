@@ -1,0 +1,41 @@
+header {
+}
+
+.header__logo {
+    height: 380px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.header__caixa {
+    background-image: url(../img/fundo-menu.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    position: relative;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.header__navegacao {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+nav li {
+    display: inline;
+    margin:  0 0 0 15px;
+
+
+}
+
+.header__navegacao a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
